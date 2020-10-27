@@ -14,20 +14,19 @@
           rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
 <header>
     <img src="./uploads/images/Logo.svg" alt="logo" class="logo">
     <nav>
         <ul class="menu">
-            <li><a href="">Features</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Pricing</a></li>
-            <li><a href="">Reviews</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#tab_effects">About</a></li>
+            <li><a href=#pricing_options>Pricing</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contacts">Contact</a></li>
         </ul>
     </nav>
 </header>
-<section class="axit">
+<section id="axit">
     <div class="axit_wrapper">
         <div class="axit_inner">
             <img src="./uploads/images/Logo.svg" alt="logo" class="logo">
@@ -38,24 +37,24 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aeneaneuismod bibendum laoreet. Proin
                 gravida dolor sit amet lacusaccumsan et viverra justo commodo.
             </p>
-            <a href="" class="download">
+            <button class="download">
                 Download
-            </a>
+            </button>
         </div>
-        <form class="form" action="#" method="post">
+        <form class="form" action="#" method="post" name="axit_form">
             <h3>
-                <pre>Try Your <span> FREE </span> Trial Today</pre>
+                Try Your <span> FREE </span> Trial Today
             </h3>
             <ul class="form_body">
                 <li><input type="text" placeholder="Name"></li>
                 <li><input type="email" placeholder="Email"></li>
                 <li><input type="password" placeholder="Password"></li>
             </ul>
-            <button type="submit" class="form_footer">Get Started</button>
+            <button type="submit" class="form_button">Get Started</button>
         </form>
     </div>
 </section>
-<section class="social">
+<section id="social">
     <div class="social_wrapper">
         <div class="social_inner">
             <h3>Social media</h3>
@@ -73,10 +72,10 @@
         </ul>
     </div>
 </section>
-<section class="tab_effects">
+<section id="tab_effects">
     <div class="tab_effects_wrapper">
         <div class="tab_effects_inner">
-            <ul class="tab_list">
+            <ul class="tab_column">
                 <li><a href="">TAB 1</a></li>
                 <li><a href="">TAB 2</a></li>
                 <li><a href="">TAB 3</a></li>
@@ -92,14 +91,14 @@
             <p class="description">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.
             </p>
-            <a href="" class="download">
+            <button class="download">
                 Download
-            </a>
+            </button>
         </div>
         <img class="city" src="./uploads/images/image_right_u255%201.png" alt="city">
     </div>
 </section>
-<section class="features">
+<section id="features">
     <div class="features_wrapper">
         <div class="features_inner">
             <h2 class="title">
@@ -111,7 +110,7 @@
         </div>
         <div class="features_inner">
             <div class="container">
-                <i class="fas fa-lightbulb"></i>
+                <i class="fas fa-lightbulb scale_animation"></i>
                 <h3>Thoughtful Design</h3>
                 <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
@@ -119,7 +118,7 @@
                 </p>
             </div>
             <div class="container">
-                <i class="fas fa-keyboard"></i>
+                <i class="fas fa-keyboard scale_animation"></i>
                 <h3>Well Crafted</h3>
                 <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
@@ -127,7 +126,7 @@
                 </p>
             </div>
             <div class="container">
-                <i class="fas fa-bolt"></i>
+                <i class="fas fa-bolt scale_animation"></i>
                 <h3>Easy to Customize</h3>
                 <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
@@ -137,7 +136,7 @@
         </div>
     </div>
 </section>
-<section class="pricing_options">
+<section id="pricing_options">
     <div class="pricing_options_wrapper">
         <div class="pricing_options_inner">
             <h2 class="title">PRICING OPTIONS</h2>
@@ -145,7 +144,7 @@
         </div>
         <div class="pricing_options_inner">
             <div class="pricing_options_container">
-                <div><h3>Basic</h3></div>
+                <h3>Basic</h3>
                 <div class="price"><span>$</span>0</div>
                 <div class="description time">Free for Life</div>
                 <div class="description popularity"></div>
@@ -159,7 +158,7 @@
                 </ul>
             </div>
             <div class="pricing_options_container">
-                <div><h3>Professional</h3></div>
+                <h3>Professional</h3>
                 <div class="price"><span>$</span>19</div>
                 <div class="description time">Monthly Payment</div>
                 <div class="description popularity">OUR MOST POPULAR</div>
@@ -173,7 +172,7 @@
                 </ul>
             </div>
             <div class="pricing_options_container">
-                <div><h3>Enterprise</h3></div>
+                <h3>Enterprise</h3>
                 <div class="price"><span>$</span>70</div>
                 <div class="description time">Monthly Payment</div>
                 <div class="description popularity"></div>
@@ -189,6 +188,106 @@
         </div>
     </div>
 </section>
+<section id="reviews">
+    <div class="reviews_wrapper">
+        <div class="reviews_inner">
+            <h2 class="title">WHAT OUR CUSTOMERS ARE SAYING</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="reviews_inner">
+            <div class="reviews_container">
+                <blockquote>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
+                        similique odio aspernatur ex, architecto eaque quo suscipit.
+                    </p>
+                </blockquote>
+                <div class="author">
+                    <img src="./uploads/images/avatar_2_u231%201.svg" alt="avatar">
+                    <div>
+                        <h3>Jeremy H.</h3>
+                        <p class="description">Manager</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews_container">
+                <blockquote>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
+                        similique odio aspernatur ex, architecto eaque quo suscipit.
+                    </p>
+                </blockquote>
+                <div class="author">
+                    <img src="./uploads/images/avatar_2_u231%201.svg" alt="avatar">
+                    <div>
+                        <h3>John S.</h3>
+                        <p class="description">Freelancer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews_container">
+                <blockquote>
+                    <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus accusamus expedita repellat
+                        similique odio aspernatur ex, architecto eaque quo suscipit.
+                    </p>
+                </blockquote>
+                <div class="author">
+                    <img src="./uploads/images/avatar_2_u231%201.svg" alt="avatar">
+                    <div>
+                        <h3>Susan W.</h3>
+                        <p class="description">Photographer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="axure_design">
+    <div class="axure_design_wrapper">
+        <div class="blackout">
+            <div class="axure_design_inner">
+                <h2 class="title">STYLISH AXURE DESIGN</h2>
+                <p class="description">Use the sections you need, remove the ones you don't. Create g</p>
+            </div>
+            <button class="download">
+                Download
+            </button>
+        </div>
+    </div>
+</section>
+<section id="contacts">
+    <div class="contacts_wrapper">
+        <div class="contacts_inner">
+            <h2 class="title">CONTACT US</h2>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <form action="#" method="post" class="contacts_form" name="contacts_form">
+            <div>
+                <ul class="contacts_list">
+                    <li><input type="text" placeholder="Name"></li>
+                    <li><input type="email" placeholder="Email"></li>
+                    <li><input type="text" placeholder="Subject"></li>
+                </ul>
+                <textarea name="message" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="send_message">
+                Send Message
+            </button>
+        </form>
+    </div>
+</section>
 </main>
+<footer>
+    <ul class="social_list">
+        <li><a href=""><i class="scale_animation fab fa-facebook"></i></a></li>
+        <li><a href=""><i class="scale_animation fab fa-google-plus"></i></a></li>
+        <li><a href=""><i class="scale_animation fab fa-twitter"></i></a></li>
+        <li><a href=""><i class="scale_animation fab fa-instagram"></i></a></li>
+        <li><a href=""><i class="scale_animation fab fa-invision"></i></a></li>
+        <li><a href=""><i class="scale_animation fab fa-pinterest"></i></a></li>
+    </ul>
+    <p>© 2015 Axure Themes</p>
+</footer>
 </body>
 </html>
