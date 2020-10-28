@@ -259,10 +259,13 @@ h3 span {
 
 .tab_effects_inner:first-child {
     width: 112px;
+    height: 336px;
 }
 
 .tab_effects_inner:nth-child(2) {
     width: 500px;
+    padding-bottom: 30px;
+    padding-top: 10px;
 }
 
 .tab_effects_inner:nth-child(2) *:not(:last-child) {
@@ -327,13 +330,13 @@ h3 span {
     background-color: #FD8B38;
 }
 
-.container {
+.features_container {
     text-align: center;
     min-height: 190px;
     width: 350px;
 }
 
-.container *:not(:last-child) {
+.features_container *:not(:last-child) {
     margin-bottom: 20px;
 }
 
@@ -447,7 +450,7 @@ blockquote .description::after {
     bottom: -40px;
     left: 15px;
     border: 20px solid transparent;
-    border-top: 30px solid rgba(245, 245, 245, 1);
+    border-top: 20px solid rgba(245, 245, 245, 1);
 }
 
 .author {
